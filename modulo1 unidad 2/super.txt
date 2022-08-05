@@ -1,3 +1,11 @@
 cafe 
 leche
-azucar
+azucar   
+
+
+palta 
+pera 
+. 
+.
+.
+.
