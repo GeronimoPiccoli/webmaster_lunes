@@ -1,0 +1,63 @@
+body {
+    background-image: url(fondobody.jpg)
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    height: 40px;
+    font-size: 5rem;
+    text-shadow: -2px -2px 1px yellow, 2px 2px 1px yellow,
+        -2px 2px 1px yellow, 2px -2px 1px yellow;
+}
+
+img {
+    border: 10px solid yellow;
+    display: block;
+    margin: 0px auto;
+}
+
+p {
+    font-weight: bold;
+    color: black;
+    text-shadow: -2px -2px 1px yellow, 2px 2px 1px yellow,
+        -2px 2px 1px yellow, 2px -2px 1px yellow;
+}
+
+h2 {
+    text-align: center;
+    border: 10px ridge yellow;
+}
+
+#caja {
+    align-self: center;
+    background-color: yellow;
+    width: 170px;
+    text-align: center;
+    border: 5px solid black;
+}
+
+#contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    color: black;
+    text-decoration: underline yellow 2px
+}
+
+a:hover {
+    /* no se si esto va aca pero se me ocurrio */
+    border-bottom: 1px solid;
+    background: yellow;
+}
+
+.palabras {
+    text-shadow: -2px -2px 1px yellow, 2px 2px 1px yellow,
+        -2px 2px 1px yellow, 2px -2px 1px yellow;
+}
+
+#volver {
+text-align: center;
+}
