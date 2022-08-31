@@ -1,0 +1,102 @@
+/*
+font-family: 'Noto Serif', serif;
+font-family: 'Source Serif Pro', serif;
+
+*/
+
+
+
+
+body {
+    background-image: url(fondobody.jpg)
+}
+
+h1 {
+    font-family: 'Noto Serif', serif;
+    text-align: center;
+    margin-top: -40px;
+    margin-bottom: 130px;
+    height: 50px;
+    font-size: 150px;
+    text-shadow: -2px -2px 1px yellow, 2px 2px 1px yellow,
+        -2px 2px 1px yellow, 2px -2px 1px yellow;
+}
+
+li {
+    margin-left: 80px;
+    padding-right: 100px;
+}
+
+img {
+    border: 10px solid yellow;
+    display: block;
+    margin: 0px auto;
+}
+
+p {
+    margin-bottom: -15px;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-shadow: -2px -2px 1px rgb(253, 255, 105), 2px 2px 1px rgb(253, 255, 105),
+        -2px 2px 1px rgb(253, 255, 105), 2px -2px 1px rgb(253, 255, 105);
+}
+
+h2 {
+    text-align: center;
+    border: 10px ridge yellow;
+}
+
+h3 {
+    text-align: center;
+    text-shadow: -2px -2px 1px yellow, 2px 2px 1px yellow,
+        -2px 2px 1px yellow, 2px -2px 1px yellow;
+}
+
+#caja {
+    align-self: center;
+    background-color: yellow;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 142px 142px 142px 142px;
+    -webkit-border-radius: 142px 142px 142px 142px;
+    -moz-border-radius: 142px 142px 142px 142px;
+    box-shadow: -10px 9px 105px -10px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -10px 9px 105px -10px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -10px 9px 105px -10px rgba(0, 0, 0, 0.75);
+}
+
+#contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    color: black;
+    text-decoration: underline yellow 2px
+}
+
+a:hover {
+    /* no se si esto va aca pero se me ocurrio */
+    border-bottom: 1px solid;
+    background: yellow;
+}
+
+.palabras {
+    text-shadow: -2px -2px 1px yellow, 2px 2px 1px yellow,
+        -2px 2px 1px yellow, 2px -2px 1px yellow;
+}
+
+#volver {
+    text-align: center;
+}
+
+.text {
+    background-color: rgb(36, 33, 33);
+    columns: 3;
+    column-rule: 2px solid yellow;
+    margin-bottom: -10px;
+}

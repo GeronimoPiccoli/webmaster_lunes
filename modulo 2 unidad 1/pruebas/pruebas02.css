@@ -1,0 +1,6 @@
+.text{
+    background-color: yellow;
+    column-count: 3;
+    column-gap: 50px;
+
+}
