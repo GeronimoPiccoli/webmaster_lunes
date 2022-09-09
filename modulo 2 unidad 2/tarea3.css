@@ -1,0 +1,46 @@
+#contenedor{
+    background-color: white;
+    border: 5px solid black;
+    width: 99%;
+    height: 200px;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+#rojo{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 200px;
+    width: 20%;
+    background-color: red;
+    color: white;
+}
+
+#azul{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 200px;
+    width: 20%;
+    background-color: blue;
+    color: white;
+    text-align: center;
+
+}
+
+#verde{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 200px;
+    width: 20%;
+    background-color: green;
+    color: white;
+    text-align: center;
+}
