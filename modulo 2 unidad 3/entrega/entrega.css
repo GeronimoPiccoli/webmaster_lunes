@@ -1,0 +1,161 @@
+body{
+    background-color: chartreuse;
+}
+
+h1 {
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 0%;
+    animation-name: h1animado;
+    animation-duration: 4s;
+}
+
+@keyframes h1animado {
+    from {color: white;}
+    to {color: black;}
+}
+
+.contenedor {
+    display: flex;
+    height: 100px;
+}
+
+#caja1 {
+    background-color: orange;
+    height: 90%;
+    width: 50%;
+    text-align: center;
+    margin: 1%;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    transition: all 0.7s ease;
+    border: 3px solid black;
+}
+
+#caja2 {
+    background-color: orange;
+    width: 50%;
+    height: 90%;
+    margin: 1%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    transition: all 0.7s ease;
+    border: 3px solid black;
+}
+
+#caja1:hover {
+    transform: scale(0.5);
+}
+
+#caja2:hover {
+    transform: scale(0.5);
+}
+
+.parrafo {
+    background-color: aqua;
+    display: flex;
+    height: 230px;
+    margin: 1%;
+    border: 3px solid black;
+    padding: 1%;
+
+}
+
+#cajap{
+    align-items: center;
+    justify-content: center;
+    margin: 1px;
+}
+
+.contenedor2{
+    display: flex;
+    height: 120px;
+    margin-top: 1px;
+}
+
+#caja3{
+    background-color: blueviolet;
+    height: 90%;
+    width: 33%;
+    margin: 1%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: 3px solid black;
+    margin-top: 1px;
+    padding: 1%;
+}
+
+#caja4{
+    background-color: blueviolet;
+    height: 90%;
+    width: 33%;
+    margin: 1%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: 3px solid black;
+    margin-top: 1px;
+    padding: 1%;
+}
+
+#caja5{
+    background-color: blueviolet;
+    height: 90%;
+    width: 33%;
+    margin: 1%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: 3px solid black;
+    margin-top: 1px;
+    padding: 1%;
+}
+
+
+@media screen and (min-width: 230px) and (max-width: 943px){
+
+    p {
+        font-size: 16px;
+    }
+    .parrafo {
+        background-color: rgb(245, 146, 110);
+        height: 300px;
+        margin: 1%;
+        border: 3px solid black;
+        padding: 1%;
+    
+    }
+
+    #caja3{
+        height: 350px;
+        width: 33%;
+        margin: 1%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        border: 3px solid black;
+        margin-top: 1px;
+        padding: 1%;
+    }
+    
+    #caja4{
+        height: 350px;
+        width: 33%;
+        margin: 1%;
+        margin-top: 1px;
+        padding: 1%;
+    }
+    
+    #caja5{
+        height: 350px;
+        width: 33%;
+        margin: 1%;
+        margin-top: 1px;
+        padding: 1%;
+    }
+}
