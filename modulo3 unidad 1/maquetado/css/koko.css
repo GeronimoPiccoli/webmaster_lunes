@@ -1,0 +1,406 @@
+/* 
+font-family: 'Montserrat', sans-serif;
+*/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.imagenkoko {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    top: -10px;
+}
+
+header h2 {
+    font-size: 12px;
+    margin-top: 0;
+    text-align: center;
+    
+}
+
+.cuotas {
+    line-height: 30px;
+    background-color: rgba(128, 128, 128, 0.774);
+   
+}
+
+header h2 a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+
+header h2 a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+header h1 {
+    font-size: 15px;
+    color: grey;
+    font-weight: 300;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    top: -55px;
+    right: -25px;
+}
+
+nav {
+    margin-bottom: 20px;
+}
+
+nav ul {
+    background-color: grey;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    top: -20px;
+}
+
+nav ul li {
+    flex-grow: 1;
+}
+
+nav ul li a {
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    padding: 1px 6px;
+    display: block;
+    text-align: center;
+    line-height: 25px;
+}
+
+nav ul li a:hover {
+    background-color: rgb(253, 187, 200);
+    color: rgba(255, 255, 255, 0.534);
+    font-size: 13px;
+
+}
+
+footer {
+    background-color: rgb(148, 144, 144);
+    clear: both;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    margin-top: 20px;
+}
+
+nav ul li a.activo {
+    background-color: rgb(253, 187, 200);
+}
+
+.holder {
+    max-width: 1080px;
+    margin: 0 auto ;
+}
+
+
+.slider {
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider ul {
+    display: flex;
+    padding: 0;
+    width: 300%;
+    animation: cambio 20s infinite;
+
+}
+
+.slider li {
+    width: 100%;
+    list-style: none;
+}
+
+.slider img {
+    width: 100%;
+}
+
+@keyframes cambio {
+    0% {
+        margin-left: 0;
+    }
+
+    20% {
+        margin-left: 0;
+    }
+
+    25% {
+        margin-left: -100%;
+    }
+
+    45% {
+        margin-left: -100%;
+    }
+
+    50% {
+        margin-left: -200%;
+    }
+
+    70% {
+        margin-left: -200%;
+    }
+
+    75% {
+        margin-left: -200%;
+    }
+
+    100% {
+        margin-left: -200%;
+    }
+}
+
+main h2 {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    color: rgb(253, 187, 200);
+}
+
+h3 {
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(148, 144, 144);
+
+}
+
+.capi {
+    background-color: rgb(253, 187, 200);
+    text-align: center;
+    color: white;
+    line-height: 30px;
+}
+
+span {
+    font-size: 20px;
+}
+
+.h22 {
+    font-weight: 300;
+    color: rgb(116, 113, 113);
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.columnas{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.inercolumnas{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin: 50px;
+}
+.inercolumnas i{
+    font-size: 30px;
+    color: rgb(148, 144, 144);
+    display: flex;
+    justify-content: center;
+    margin-right: 15px;
+    padding-top: 5px;
+}
+.inercolumnas a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(148, 144, 144);
+}
+.inercolumnas a:hover{
+    color: rgb(253, 187, 200);
+    text-decoration: underline;
+}
+
+.letras {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+main p {
+    text-align: center;
+    font-weight: 400;
+}
+
+.mediosdepagop {
+    font-size: 14px;
+    text-align: left;
+    font-weight: 400;
+}
+
+.teamcontenedor {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    margin-bottom: 5%;
+}
+
+.adri {
+    margin-right: 2%;
+    border: solid 1px gray;
+    border-radius: 10px;
+    padding: 1%;
+    box-shadow: 6px 30px 45px -25px rgba(0, 0, 0, 0.59);
+    -webkit-box-shadow: 6px 30px 45px -25px rgba(0, 0, 0, 0.59);
+    -moz-box-shadow: 6px 30px 45px -25px rgba(0, 0, 0, 0.59);
+
+}
+
+.silvi {
+    margin-right: 2%;
+    border: solid 1px gray;
+    border-radius: 10px;
+    padding: 1%;
+    box-shadow: 6px 30px 45px -25px rgba(0, 0, 0, 0.59);
+    -webkit-box-shadow: 6px 30px 45px -25px rgba(0, 0, 0, 0.59);
+    -moz-box-shadow: 6px 30px 45px -25px rgba(0, 0, 0, 0.59);
+}
+
+.glenda {
+    border: solid 1px gray;
+    border-radius: 10px;
+    margin-bottom: 0;
+    padding: 1%;
+    box-shadow: 6px 30px 45px -25px rgba(0, 0, 0, 0.59);
+    -webkit-box-shadow: 6px 30px 45px -25px rgba(0, 0, 0, 0.59);
+    -moz-box-shadow: 6px 30px 45px -25px rgba(0, 0, 0, 0.59);
+}
+
+.imglocal {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.lugar {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    color: rgb(253, 187, 200);
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+
+
+/*Formulario*/
+.mensajes {
+    display: flex;
+    justify-content: center;
+}
+
+.mensajeria {
+    width: 900px;
+    padding: 30px;
+    margin-top: 0px;
+    border-radius: 4px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(253, 187, 200);
+    margin-bottom: 100px;
+}
+
+.mensajeria h4 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.controles {
+    width: 100%;
+    background-color: white;
+    padding: 7px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid gray;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+
+.controlesmensaje {
+    min-height: 100px;
+    max-height: 100px;
+    min-width: 900px;
+    max-width: 900px;
+    width: 100%;
+    background-color: white;
+    padding: 7px;
+    padding-bottom: 100px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid gray;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+.mensajeria .boton {
+    width: 100%;
+    background: rgb(148, 144, 144);
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+.mensajeria .boton:hover{
+    background-color: rgb(253, 187, 200);
+}
+
+/*redes*/
+.redes{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+ .cajaredes{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+ }
+.cajaredes i{
+    font-size: 30px;
+    color: rgb(148, 144, 144);
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+}
+.cajaredes a{
+    font-size: 15px;
+    font-family:'Montserrat', sans-serif;
+    text-decoration: none;
+    color: gray;
+    font-weight: 700;
+}
+
+.cajaredes a:hover{
+    text-decoration: underline;
+    color: pink;
+
+}
