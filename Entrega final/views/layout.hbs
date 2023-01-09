@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KOKO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/stylesheets/normalize.css">
+    <link rel="stylesheet" href="/stylesheets/koko.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <header class="holder">
+        <h2 class="cuotas">
+            <a href="https://www.instagram.com/koko.indumentaria/?hl=es" target="_blank">
+                Si queres realizar una compra en 3 o 6 cuotas sin interés pedinos el link por Instagram.
+            </a>
+        </h2>
+        <div class="imagenkoko">
+            <img src="/images/kokologo.png" width="300" alt="KOKOlogo">
+        </div>
+        <h1>INDUMENTARIA</h1>
+        </div>
+    </header>
+    <nav>
+        <ul class="holder">
+            <li><a class="{{#if isHOME}}activo{{/if}}" href="/">HOME</a></li>
+            <li><a class="{{#if isNOSOTRAS}}activo{{/if}}" href="/nosotras">NOSOTRAS</a></li>
+            <li><a class="{{#if isPRODUCTOS}}activo{{/if}}" href="/productos">PRODUCTOS</a></li>
+            <li><a class="{{#if isMEDIOSDEPAGOYENVIOS}}activo{{/if}}" href="/mediosdepago">MEDIOS DE PAGO Y ENVIOS</a>
+            </li>
+            <li><a class="{{#if isCONTACTO}}activo{{/if}}" href="/contacto">CONTACTO</a></li>
+            <li><a class="{{#if isPOLÍTICADEDEVOLUCIÓN}}activo{{/if}}" href="/devolucion">POLÍTICA DE DEVOLUCIÓN</a>
+            </li>
+        </ul>
+    </nav>
+    <main class="holder">
+        {{{body}}}
+    </main>
+    <footer>
+        <p>Diseñado por Geronimo Piccoli</p>
+    </footer>
+</body>
+
+
+</html>

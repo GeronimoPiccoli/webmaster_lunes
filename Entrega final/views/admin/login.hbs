@@ -1,0 +1,19 @@
+<h1 style="color: rgb(228, 163, 174);">Bienvenido al Login</h1>
+
+<div class="countainer" style="margin-top: 50px;">
+    <div class="row">
+        <form action="/admin/login" method="post">
+            <div class="mb-3">
+                <input type="text" class="form-control" id="inputUser" placeholder="Usuario" name="usuario">
+            </div>
+            <div class="mb-3">
+                <input type="password" class="form-control" id="inputPassword"
+                    placeholder="Contraseña" name="password">
+            </div>
+            <button type="submit" class="btn btn-primary">Ingresar</button>
+        </form>
+{{#if error}}
+<p>Usuario o Contraseña incorrectos</p>
+{{/if}}
+    </div>
+</div>
