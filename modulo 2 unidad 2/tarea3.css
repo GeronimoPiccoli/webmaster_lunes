@@ -1,8 +1,6 @@
 #contenedor{
     background-color: white;
     border: 5px solid black;
-    width: 99%;
-    height: 200px;
     margin: 0 auto;
     align-items: center;
     display: flex;
